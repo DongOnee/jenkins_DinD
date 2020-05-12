@@ -9,6 +9,6 @@ RUN /docker_install.sh
 
 # docker-compose
 RUN ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-RUN chmod +x /usr/local/bin/docker-compose
+# RUN chmod +x /usr/local/bin/docker-compose
 
 RUN usermod -aG docker jenkins 
